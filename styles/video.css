@@ -1,0 +1,108 @@
+   
+      .thumbnail{
+        width: 100%;
+        border-radius: 8px;
+        cursor: pointer;
+        
+      }
+      .time{
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        border-radius: 3px;
+        font-size: 12px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: black;
+        color: white;
+        font-family: Robot, Arial;
+        font-weight: bold;
+
+
+
+      }
+      .box-1{
+        position: relative;
+      }
+     
+      .video-title{
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
+        
+      }
+    
+      .video-preview{
+        width: 100%;
+        font-family: Arial;
+        vertical-align: top;
+        margin-top: 30px;
+        
+      }
+      .channel-author-circle{
+       width: 40px;
+       border-radius: 50px;
+       position: relative;
+       
+      }
+    
+      .box-3{
+        display: inline-block;
+        width: 240px;
+        position: absolute;
+        cursor: pointer;
+        width: 230px;
+      }
+      .video-title{
+        text-decoration: none;
+      }
+      .channel-profile{
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+        cursor: pointer;
+
+      }
+      .box-2{
+        margin-top: 12px;
+        
+      }
+      .video-author,.video-views{
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+      }
+      .video-author{
+        margin-bottom: 4px;
+      }
+      .youtube-video-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        
+        width: 100%;
+        row-gap: 35px;
+        column-gap: 15px;
+        
+        }
+        @media (max-width: 750px) {
+          .youtube-video-grid{
+            grid-template-columns: 1fr 1fr;
+          }
+          
+        }
+        @media (max-width:620px) {
+          .youtube-video-grid{
+            grid-template-columns: 1fr;
+          }
+          
+        }
+        
+      .channel-header{
+        width: 100%;
+      }
+     
+      
+     

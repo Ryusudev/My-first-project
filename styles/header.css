@@ -1,0 +1,251 @@
+       .search-bar{
+        height: 36px;
+        padding-left: 20px;
+        flex: 1;
+        border-radius: 20px 0 0 20px;
+        border: 1px solid rgb(196, 196 , 196 );
+        box-shadow: inset 0.7px 1px 1px rgba(0,0,0,0.1);
+        width: 0;  
+        width: 100%;
+        margin-top: 4px;
+
+        
+        
+      }
+     
+      .search-bar::placeholder{
+        font-family: Roboto, Arial;
+        font-size: 13px;
+        
+      }
+      .header{
+        height: 100px;
+        display: flex;
+       flex-wrap: wrap;
+        
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 20px;
+        z-index: 100;
+        border: none;
+        position: fixed;
+        top: 0;
+        right:0;
+        left:0;
+        background-color: transparent;
+        backdrop-filter: blur(60px);
+      
+
+      }
+
+     
+      .upper-section{
+        height: 50px;
+        display: flex;
+        
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 20px;
+        z-index: 100;
+        border: none;
+        position: fixed;
+        top: 0;
+        right:0;
+        left:0;
+        background-color: transparent;
+        backdrop-filter: blur(35px);
+        overflow: hidden;
+
+
+
+      }
+       .lower-section{
+        height: 50px;
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        
+        
+        justify-content: start;
+        gap: 10px;
+        flex-direction: row;
+        margin-bottom: 20px;
+        z-index: 100;
+       
+        position: fixed;
+        top: 0;
+        right:0;
+        left:0;
+        background-color: transparent;
+        backdrop-filter: blur(60px);
+        overflow: hidden;
+        margin-left:100px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+
+      }
+      .lower-section::-webkit-scrollbar{
+        display: none;
+      }
+      
+
+
+    
+      .first-section{
+       
+        display: flex;
+        align-items: center;
+        
+      }
+      .second-section{
+        
+        flex: 1;
+        margin-right:200px ;
+        display: flex;
+        align-items: center;
+        
+        margin-left: 180px;
+        
+       
+       
+      }     
+      .third-section{
+        
+        flex: 1fr;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        
+       
+      
+        
+        
+      }
+      .youtube-logo{
+       height:  20px;
+       width: 100px;
+
+      }
+      .hamburger-menu{
+        height:  24px;
+        margin-right: 24px;
+        margin-left: 24px;
+      }
+      .search--image{
+        height: 20px;
+        position: relative;
+        
+      }
+      
+
+      .voice--image{
+        height: 20px;
+      }
+      .search-image{
+        
+        height: 39px;
+        width: 50px;
+        border-radius: 0 20px 20px 0;
+        border: none;
+        margin-left: -1px;
+        border: 1px solid rgb(196, 196,196);
+        position: relative;
+        margin-top: 4px;
+             
+      }
+     
+      .search-image:hover .toolbar{
+        opacity: 1;
+        
+      }
+      .search-image:hover{
+        background-color: rgb(201, 201, 201);
+      }
+     
+      .voice-image{
+
+        margin-left: 20px;
+        height: 39px;
+        width: 40px;
+        border-radius: 40px;
+        border: none;
+        margin-top: 4px;
+        border: 1px solid rgb(196, 196 , 196 );
+ 
+      }
+      .voice-image:hover{
+        background-color: rgb(201, 201, 201);
+        
+      }
+      
+   
+      input:focus {
+        border: 2px solid rgba(184, 183, 183, 0.5); /* Your own active border */
+        outline: none;
+        
+      }
+      .upload-image{
+        height: 25px;
+        margin-right: 20px;
+      }
+      .notifications-image{
+        height: 25px;
+        margin-top: 10px;
+
+      }
+      .dot-image{
+        height: 25px;
+        margin-right: 20px;
+      }
+      .noti-dev{
+        position: relative;
+      }
+      .notification-number{
+        position: absolute;
+        top: 2px;
+        right:-7px;
+        font-size: 10px;
+        background-color: rgb(210, 7, 7);
+        color: white;
+        font-family: Roboto,Arial;
+        font-weight: bold;
+        border-radius: 12px;
+        padding-right: 4px;
+        padding-left: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+      }
+      
+      .channel-image{
+        height: 35px;
+        margin-left: 24px;
+        margin-right: 24px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+       
+      }
+      .lower-text{
+        background-color: rgb(219, 219, 219);
+        color: black;
+        padding: 6px 10px;
+        
+        border-radius: 7px;
+        backdrop-filter: blur (35px);
+        font-weight: bold;
+        border: none;
+
+      }
+      .lower-text:hover{
+        background-color: rgb(209, 209, 209);
+      }
+
+      
