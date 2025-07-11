@@ -8,9 +8,16 @@
   cursor: pointer;
   margin-top: 25px;
   
-  
+}
+
+@media (max-width:600px) {
+  .side-bar{
+    display: none;
+  }
+
   
 }
+
 
 
 
@@ -72,3 +79,4 @@
   margin-left: 2px;
   width: 100px;
 }
+ 

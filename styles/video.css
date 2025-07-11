@@ -99,6 +99,16 @@
           }
           
         }
+
+        @media (max-width:590px) {
+      .video-preview{
+        margin-left: -20px;
+      }
+
+      
+}
+
+
         
       .channel-header{
         width: 100%;
