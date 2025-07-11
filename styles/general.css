@@ -21,6 +21,13 @@
                text-decoration: none;
                
             }
+            @media (max-width:500px) {
+               body{
+                  margin-left: -40px;
+
+               }
+               
+            }
             
 
            
